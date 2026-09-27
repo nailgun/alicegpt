@@ -1,0 +1,11 @@
+.env
+.alicegpt/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local, durable browser state for the ChatGPT UI PoC. Never commit it.
+.alicegpt/
+chatgpt-profile/
+artifacts/chatgpt-debug/
+node_modules/

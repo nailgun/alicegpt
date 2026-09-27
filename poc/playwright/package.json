@@ -1,0 +1,20 @@
+{
+  "name": "alicegpt-chat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local feasibility PoC for ChatGPT Temporary Chat through bundled Playwright Chromium",
+  "type": "module",
+  "bin": {
+    "alicegpt-chat": "bin/alicegpt-chat.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node bin/alicegpt-chat.js --help"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
